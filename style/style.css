@@ -1,3 +1,8 @@
 body {
   background-image: url('./game.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: grey;
+  min-height: 100vh;
 }
