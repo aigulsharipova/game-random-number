@@ -6,3 +6,7 @@ body {
   background-color: grey;
   min-height: 100vh;
 }
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
