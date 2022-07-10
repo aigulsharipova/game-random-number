@@ -2,17 +2,15 @@ body {
   background-image: url('./game.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
   background-color: grey;
   min-height: 100vh;
 }
 h1 {
   text-align: center;
   font-size: 70px;
-  background-color: rgb(240, 240, 240);
-  width: 800px;
-  margin-left: 550px;
-  margin-top: 50px;
+}
+h3 {
+  text-align: center;
 }
 .alert {
   display: flex;
@@ -20,14 +18,28 @@ h1 {
   align-items: center;
   background-color: rgb(240, 240, 240);
   border: 3px solid white;
-  height: 200px;
+  height: 250px;
   width: 300px;
-  margin-left: 770px;
-  margin-top: 200px;
+
 }
 #gues {
   padding: 5px;
   font-size: 20px;
   width: 40%;
   border: 3px solid black;
+}
+#btn {
+  background-color: black;
+  font-size: 15px;
+  color: aliceblue;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+@media all and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
 }
