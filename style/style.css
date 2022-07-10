@@ -10,3 +10,8 @@ h1 {
   text-align: center;
   color: aliceblue;
 }
+.alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
