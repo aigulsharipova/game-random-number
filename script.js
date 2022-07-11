@@ -12,6 +12,12 @@ function play() {
       title: 'Oops...',
       text: 'Write numbers 1 to 20!',
     })
+  } else if (isNaN(userNumber)) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Write number!',
+    })
   }
-  
+
 }
