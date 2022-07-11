@@ -1,2 +1,2 @@
-const inputtext = document.querySelector('.text');
-const button = document.querySelector('.btn');
+const inputtext = document.querySelector('.#gues');
+const button = document.querySelector('#btn');
