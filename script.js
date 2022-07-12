@@ -1,6 +1,6 @@
 const inputText = document.querySelector('#gues');
 const button = document.querySelector('#btn');
-
+const answer = Math.floor(Math.random() * 20) + 1;
 button.addEventListener('click', play);
 
 function play() {
