@@ -1,6 +1,6 @@
 const inputText = document.querySelector('#guess');
 const button = document.querySelector('#btn');
-const answer = Math.floor(Math.random() * 20) + 1;
+const answer = Math.floor(Math.random()*20)+1;
 
 button.addEventListener('click', play);
 
@@ -25,11 +25,11 @@ function play() {
 
   else {
     if (userNumber < answer) {
-      alert('You need write number is biggest');
+       Swal.fire('You need write number is biggest');
     }
 
     else if (userNumber > answer) {
-      alert('You need wtite number is smaller');
+      Swal.fire('You need wtite number is smaller');
     }
    else {
     alert('You win!!!')
