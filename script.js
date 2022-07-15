@@ -32,7 +32,7 @@ function play() {
       Swal.fire('You need wtite number is smaller');
     }
    else {
-    alert('You win!!!')
+    Swal.fire('You WIN!!!!');
    }
   }
 }
