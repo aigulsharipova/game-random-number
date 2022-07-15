@@ -32,10 +32,10 @@ function play() {
   }
   else {
     if (userNumber < answer) {
-       Swal.fire('You need write number is biggest');
+       Swal.fire('Biggest');
     }
     else if (userNumber > answer) {
-      Swal.fire('You need wtite number is smaller');
+      Swal.fire('Smaller');
     }
    else {
     Swal.fire({
