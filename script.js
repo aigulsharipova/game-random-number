@@ -2,6 +2,14 @@ const inputText = document.querySelector('#guess');
 const button = document.querySelector('#btn');
 const answer = Math.floor(Math.random()*20)+1;
 
+inputText.addEventListener('keypress', function(e) {
+  if (e.keyCode === 13)  
+    play()
+  
+})
+
+
+
 button.addEventListener('click', play);
 
 function play() {
@@ -34,7 +42,6 @@ function play() {
    else {
     Swal.fire({
       title: 'You WIN!!!!',
-      text: 'You WIN!!!!',
       imageUrl: './style/win.jpg',
       imageWidth: 400,
       imageHeight: 200,
