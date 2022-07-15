@@ -32,7 +32,14 @@ function play() {
       Swal.fire('You need wtite number is smaller');
     }
    else {
-    Swal.fire('You WIN!!!!');
+    Swal.fire({
+      title: 'You WIN!!!!',
+      text: 'You WIN!!!!',
+      imageUrl: './style/win.jpg',
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+    })
    }
   }
 }
