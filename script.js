@@ -30,12 +30,10 @@ function play() {
       text: 'Write number!',
     })
   }
-
   else {
     if (userNumber < answer) {
        Swal.fire('You need write number is biggest');
     }
-
     else if (userNumber > answer) {
       Swal.fire('You need wtite number is smaller');
     }
