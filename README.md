@@ -18,4 +18,7 @@ The online game.
 
 ## Screenshot 📸
 
-![Example](./style/screen1.png)
+![Example 1](./style/screen1.png)
+![Example 2](./style/screen2.png)
+![Example 3](./style/screen3.png)
+![Example 4](./style/screen4.png)
