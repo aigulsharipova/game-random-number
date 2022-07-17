@@ -8,8 +8,6 @@ inputText.addEventListener('keypress', function(e) {
   
 })
 
-
-
 button.addEventListener('click', play);
 
 function play() {
