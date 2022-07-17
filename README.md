@@ -2,7 +2,7 @@
 
 The online game.
 
-- ## [Game](https://guessing-game.glitch.me/)
+- ## [Game](https://number-game-guessing.glitch.me/)
 
 ---
 
